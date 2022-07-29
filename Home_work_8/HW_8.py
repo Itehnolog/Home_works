@@ -53,7 +53,7 @@ def get_birthdays_per_week(users):
     return days_name
 
 
-def main(users):
+def main():
     days = get_birthdays_per_week(users)
 
     # printing users names with days
@@ -63,4 +63,4 @@ def main(users):
 
 
 if __name__ == '__main__':
-    main(users)
+    main()
