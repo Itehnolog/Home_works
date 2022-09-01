@@ -99,10 +99,10 @@ class Phone(Field):
         value = (
             value.strip()
             .removeprefix("+")
-            .replace("(", "")
-            .replace(")", "")
             .replace("-", "")
             .replace(" ", "")
+            .replace("(", "")
+            .replace(")", "")
         )
         self._value = value
 
